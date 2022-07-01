@@ -1,12 +1,9 @@
 import "./Button.css"
-function Button({titulo,sub,sub2}) {
+function Button({button}) {
 
     return(
 
-      <button className="botao">< strong className="titulo">{titulo}</strong><p className="sub">{sub}</p><p className="sub2">{sub2}</p>
-      </button>
-
-
+      <button className="botao">{button}</button>
         
     );
 }
