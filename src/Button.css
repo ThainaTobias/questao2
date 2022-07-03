@@ -1,18 +1,18 @@
 .botao{
-    background-color:#FFF;
-    width:400px;
-    height: 20px;
-    color: #000;
-    padding-bottom:100px;
-    padding-top: 25px;
-    letter-spacing: 2px;
-    margin-left: 39px;
-    margin-top: 10px;
-    border-color: rgba(169, 169, 169, 0.123);
-    
-    
+    margin: 5px;
+    margin-left: 10px;
+    border-radius: 40px;
+    padding: 10px;
+    border: 1px solid;
+    color: #c0c0c0ea;
+    background-color: #FFF;
+    color:#000;
+    border: 1px solid #c0c0c0ea;
+   
 }
 .botao:hover{
-    background-color: #0085A1;
+    background-color: #80dee305;
     color: #FFF;
+    border: 1px solid #13a1bd;
+    color:#13a1bd;
 }
