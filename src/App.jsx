@@ -1,4 +1,5 @@
 import Button from "./Button";
+import "./App.css";
 function App(){
   const palavras_chaves=[
     {button: "linux"}, 
@@ -44,7 +45,7 @@ function App(){
   
   ]
   return(
-    <div>
+    <div className="mae">
       {palavras_chaves.map((botao)=> {
         return <Button 
         button ={botao.button} />
